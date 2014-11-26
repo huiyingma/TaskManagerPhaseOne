@@ -49,23 +49,28 @@ public final class R {
         public static final int ic_phrase_missed_30=0x7f020003;
     }
     public static final class id {
-        public static final int demo_task=0x7f0d000f;
+        public static final int Schedule=0x7f0d0012;
+        public static final int demo_task=0x7f0d0010;
         public static final int game_state=0x7f0d0005;
+        public static final int go_back=0x7f0d0015;
         public static final int image=0x7f0d000a;
-        public static final int instructions=0x7f0d0010;
+        public static final int instructions=0x7f0d0011;
         public static final int message=0x7f0d0007;
+        public static final int next=0x7f0d0014;
         public static final int phrase=0x7f0d000b;
         public static final int phrase_flipper=0x7f0d0001;
         public static final int phrase_primary=0x7f0d0002;
         public static final int phrase_secondary=0x7f0d0003;
         public static final int picture=0x7f0d0009;
-        public static final int run_task=0x7f0d000e;
+        public static final int run_task=0x7f0d000f;
         public static final int score_summary=0x7f0d0008;
+        public static final int show_me=0x7f0d0013;
         public static final int status_bar=0x7f0d0004;
         public static final int textView1=0x7f0d000c;
+        public static final int textViewCard=0x7f0d000d;
         public static final int timer=0x7f0d0006;
         public static final int tip_tap_for_options=0x7f0d0000;
-        public static final int video_player_view=0x7f0d000d;
+        public static final int video_player_view=0x7f0d000e;
     }
     public static final class integer {
         /**  The duration of the slide animations used by the in-game ViewFlipper. 
@@ -80,11 +85,13 @@ public final class R {
         public static final int imageview=0x7f030004;
         public static final int table_row_result=0x7f030005;
         public static final int textview=0x7f030006;
-        public static final int videoview=0x7f030007;
+        public static final int textviewcard=0x7f030007;
+        public static final int videoview=0x7f030008;
     }
     public static final class menu {
         public static final int run_results=0x7f0c0000;
         public static final int start_coaching_task=0x7f0c0001;
+        public static final int voice_menu_activities=0x7f0c0002;
     }
     public static final class raw {
         public static final int bowline=0x7f060000;
@@ -101,25 +108,37 @@ public final class R {
         /**  Text displayed on the result summary card when the game ended because time ran out. 
          */
         public static final int game_over=0x7f0a0002;
+        /**  Menu item text to display the instructions. 
+         */
+        public static final int go_back=0x7f0a000c;
         /**  Text displayed on the result summary card when the game ended because all phrases were
          guessed correctly. 
          */
         public static final int great_job=0x7f0a0003;
         /**  Menu item text to display the game instructions. 
          */
-        public static final int instructions=0x7f0a0007;
+        public static final int instructions=0x7f0a0008;
+        /**  Menu item text to start a new game. 
+         */
+        public static final int next=0x7f0a000b;
         /**  Menu item text to start a new game. 
          */
         public static final int run_task=0x7f0a0005;
+        /**  Menu item text to display the instructions. 
+         */
+        public static final int schedule=0x7f0a0007;
         /**  Format string used to display the final score on the result summary card. 
          */
         public static final int score_summary=0x7f0a0004;
+        /**  Menu item text to start a new game. 
+         */
+        public static final int show_me=0x7f0a000a;
         /**  Tip text displayed at the bottom of the splash screen. 
          */
         public static final int tap_for_options=0x7f0a0001;
         /**  to display text content in activity. 
          */
-        public static final int text_content=0x7f0a0008;
+        public static final int text_content=0x7f0a0009;
     }
     public static final class xml {
         public static final int voice_trigger_start_a_task=0x7f050000;

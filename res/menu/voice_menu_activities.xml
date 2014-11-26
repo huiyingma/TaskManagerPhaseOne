@@ -17,24 +17,16 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/run_task"
-        android:icon="@drawable/ic_game_50"
-        android:title="@string/run_task"
+        android:id="@+id/show_me"
+        android:title="@string/show_me"
         />
     <item
-        android:id="@+id/demo_task"
-        android:icon="@drawable/ic_game_50"
-        android:title="@string/demo_task"
+        android:id="@+id/next"
+        android:title="@string/next"
         />
     <item
-        android:id="@+id/instructions"
-        android:icon="@drawable/ic_help_50"
-        android:title="@string/instructions"
-        />
-    <item
-        android:id="@+id/Schedule"
-        android:icon="@drawable/ic_help_50"
-        android:title="@string/schedule"
+        android:id="@+id/go_back"
+        android:title="@string/go_back"
         />
     
 </menu>

@@ -38,9 +38,12 @@
         <!-- Menu item text to start a new game. -->
     <string name="demo_task">Demo Mode Task</string>
     
+    <!-- Menu item text to display the instructions. -->
+    <string name="schedule">Scheduled Tasks</string>
+    
     <!-- Menu item text to display the game instructions. -->
     <string name="instructions">Instructions</string>
-
+    
     <!-- to display text content in activity. -->
     <string name="text_content">Text</string>
     
@@ -66,4 +69,14 @@
         <item>Activity 10: Picture 7</item>
     </string-array>
 
+    
+    <!-- Menu item text to start a new game. -->
+    <string name="show_me">Show Me</string>
+
+        <!-- Menu item text to start a new game. -->
+    <string name="next">Next</string>
+    
+    <!-- Menu item text to display the instructions. -->
+    <string name="go_back">Go Back</string>
+    
 </resources>
