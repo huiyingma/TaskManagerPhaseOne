@@ -24,6 +24,7 @@ import java.io.OutputStream;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.AssetManager;
 import android.graphics.Color;
 import android.media.AudioManager;
@@ -69,6 +70,9 @@ public abstract class BaseTemplateTask extends Activity {
 	protected ImageView mImageview;
 	protected GestureDetector mGestureActivity;
 	
+	static final int RESULT_ACTIV = 1;
+
+	
 	/** The amount of time to leave the correctly guessed phrase on screen before advancing. */
     private static final long SCORED_PHRASE_DELAY_MILLIS = 500;
 
@@ -99,6 +103,7 @@ public abstract class BaseTemplateTask extends Activity {
                         //tugPhrase();
                         //return true;
                     case TAP:
+                    case TWO_TAP:
                     case SWIPE_RIGHT:
                         // Delegate tap and swipe right(forward) / left(backward) to the subclass so that the
                         // tutorial and actual game can handle them differently.
@@ -330,6 +335,10 @@ public abstract class BaseTemplateTask extends Activity {
         			Log.v(TAG,  "this is a go back");
         			goBack();
                     break;
+                case R.id.execute:
+        			Log.v(TAG,  "I want to Try");
+        			userAction();
+                    break;
                 default:
                     return true;
             }
@@ -339,7 +348,15 @@ public abstract class BaseTemplateTask extends Activity {
         return super.onMenuItemSelected(featureId, item);
     }    
 
+    /**
+     * Called to record user actions
+     */
+    protected void userAction() {
     
+        startActivityForResult((new Intent(this, UserActionActivity.class)), RESULT_ACTIV);
+//        finish();
+    
+    } 
     
     
     String copyAsset(String filename) {

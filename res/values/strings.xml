@@ -23,14 +23,14 @@
     <string name="tap_for_options">Tap for options</string>
 
     <!-- Text displayed on the result summary card when the game ended because time ran out. -->
-    <string name="game_over">Game over</string>
+    <string name="game_over">Record Activity</string>
 
     <!-- Text displayed on the result summary card when the game ended because all phrases were
          guessed correctly. -->
-    <string name="great_job">Great job!</string>
+    <string name="great_job">All Activities Completed</string>
 
     <!-- Format string used to display the final score on the result summary card. -->
-    <string name="score_summary">Score: %1$d/%2$d</string>
+    <string name="score_summary">Completed: %1$d/%2$d >> Tap for options</string>
 
     <!-- Menu item text to start a new game. -->
     <string name="run_task">Run Mode Task</string>
@@ -78,5 +78,25 @@
     
     <!-- Menu item text to display the instructions. -->
     <string name="go_back">Go Back</string>
+    
+    <!-- Menu item text to display the instructions. -->
+    <string name="execute">I want to try</string>
+
+    
+    <!-- Menu item text to display the instructions. -->
+    <string name="tap_and_i_will_listen">Tap and I will listen</string>
+    <string name="act_note">Take note</string>
+
+    <!-- Menu item text to display the instructions. -->
+    <string name="act_picture">Take picture</string>
+    
+    <!-- Menu item text to display the instructions. -->
+    <string name="act_video">Take video</string>
+    
+    <!-- Menu item text to display the instructions. -->
+    <string name="act_audio">Take audio</string>
+    
+    <!-- Menu item text to display the instructions. -->
+    <string name="act_stop">Stop</string>
     
 </resources>

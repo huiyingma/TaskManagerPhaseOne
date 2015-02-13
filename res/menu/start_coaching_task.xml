@@ -22,11 +22,6 @@
         android:title="@string/run_task"
         />
     <item
-        android:id="@+id/demo_task"
-        android:icon="@drawable/ic_game_50"
-        android:title="@string/demo_task"
-        />
-    <item
         android:id="@+id/instructions"
         android:icon="@drawable/ic_help_50"
         android:title="@string/instructions"

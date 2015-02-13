@@ -105,15 +105,6 @@ public class StartCoachingTask extends Activity {
                     }
                 });
                 return true;
-
-            case R.id.demo_task:		//new_game:
-                mHandler.post(new Runnable() {
-                    @Override
-                    public void run() {
-                        startTaskDemo();
-                    }
-                });
-                return true;
                 
             case R.id.instructions:
                 mHandler.post(new Runnable() {
@@ -134,14 +125,6 @@ public class StartCoachingTask extends Activity {
      * to the splash screen when they exit.
      */
     private void startTaskRun() {
-        startActivity(new Intent(this, TaskRunActivity.class));
-        finish();
-    }
-    /**
-     * Starts the task in DEMO mode, and finishes this activity so that the user is not returned
-     * to the splash screen when they exit.
-     */
-    private void startTaskDemo() {
         startActivity(new Intent(this, TaskDemoActivity.class));
         finish();
     }

@@ -28,5 +28,9 @@
         android:id="@+id/go_back"
         android:title="@string/go_back"
         />
+    <item
+        android:id="@+id/execute"
+        android:title="@string/execute"
+        />
     
 </menu>

@@ -158,6 +158,12 @@ public class TaskDemoActivity extends BaseTemplateTask {
                     endRun();
                 }
                 break;
+            case TWO_TAP:
+        		Log.v(TAG,  "double tap for action");
+        		userAction();
+    	        setUpScreen();
+    			updateDisplay();
+            	break;
             case SWIPE_RIGHT:
                 pass();
                 break;
@@ -181,6 +187,8 @@ public class TaskDemoActivity extends BaseTemplateTask {
         mTimer.setText(timeString);
     }
 
+
+    
     /**
      * Called either when the last phrase is guessed correctly or time has run out to finish the
      * game play activity and display the game results screen.

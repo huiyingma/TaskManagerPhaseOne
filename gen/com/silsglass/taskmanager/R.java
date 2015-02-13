@@ -49,28 +49,34 @@ public final class R {
         public static final int ic_phrase_missed_30=0x7f020003;
     }
     public static final class id {
-        public static final int Schedule=0x7f0d0012;
-        public static final int demo_task=0x7f0d0010;
-        public static final int game_state=0x7f0d0005;
+        public static final int Schedule=0x7f0d0018;
+        public static final int execute=0x7f0d001b;
+        public static final int footer=0x7f0d000c;
+        public static final int game_state=0x7f0d0006;
         public static final int go_back=0x7f0d0015;
-        public static final int image=0x7f0d000a;
-        public static final int instructions=0x7f0d0011;
-        public static final int message=0x7f0d0007;
-        public static final int next=0x7f0d0014;
-        public static final int phrase=0x7f0d000b;
-        public static final int phrase_flipper=0x7f0d0001;
-        public static final int phrase_primary=0x7f0d0002;
-        public static final int phrase_secondary=0x7f0d0003;
-        public static final int picture=0x7f0d0009;
-        public static final int run_task=0x7f0d000f;
-        public static final int score_summary=0x7f0d0008;
-        public static final int show_me=0x7f0d0013;
-        public static final int status_bar=0x7f0d0004;
-        public static final int textView1=0x7f0d000c;
-        public static final int textViewCard=0x7f0d000d;
-        public static final int timer=0x7f0d0006;
-        public static final int tip_tap_for_options=0x7f0d0000;
-        public static final int video_player_view=0x7f0d000e;
+        public static final int hello_view=0x7f0d000b;
+        public static final int image=0x7f0d000d;
+        public static final int instructions=0x7f0d0017;
+        public static final int message=0x7f0d0008;
+        public static final int next=0x7f0d001a;
+        public static final int phrase=0x7f0d000e;
+        public static final int phrase_flipper=0x7f0d0002;
+        public static final int phrase_primary=0x7f0d0003;
+        public static final int phrase_secondary=0x7f0d0004;
+        public static final int picture=0x7f0d000a;
+        public static final int run_task=0x7f0d0016;
+        public static final int score_summary=0x7f0d0009;
+        public static final int show_me=0x7f0d0019;
+        public static final int status_bar=0x7f0d0005;
+        public static final int take_audio=0x7f0d0014;
+        public static final int take_note=0x7f0d0011;
+        public static final int take_picture=0x7f0d0012;
+        public static final int take_video=0x7f0d0013;
+        public static final int textView1=0x7f0d0000;
+        public static final int textViewCard=0x7f0d000f;
+        public static final int timer=0x7f0d0007;
+        public static final int tip_tap_for_options=0x7f0d0001;
+        public static final int video_player_view=0x7f0d0010;
     }
     public static final class integer {
         /**  The duration of the slide animations used by the in-game ViewFlipper. 
@@ -78,15 +84,17 @@ public final class R {
         public static final int slide_duration_ms=0x7f090000;
     }
     public static final class layout {
-        public static final int activity_start_task=0x7f030000;
-        public static final int activity_taskcoaching=0x7f030001;
-        public static final int card_results_phrase_list=0x7f030002;
-        public static final int card_results_summary=0x7f030003;
-        public static final int imageview=0x7f030004;
-        public static final int table_row_result=0x7f030005;
-        public static final int textview=0x7f030006;
-        public static final int textviewcard=0x7f030007;
-        public static final int videoview=0x7f030008;
+        public static final int activity_main=0x7f030000;
+        public static final int activity_start_task=0x7f030001;
+        public static final int activity_taskcoaching=0x7f030002;
+        public static final int card_results_phrase_list=0x7f030003;
+        public static final int card_results_summary=0x7f030004;
+        public static final int imageview=0x7f030005;
+        public static final int start=0x7f030006;
+        public static final int table_row_result=0x7f030007;
+        public static final int textview=0x7f030008;
+        public static final int textviewcard=0x7f030009;
+        public static final int videoview=0x7f03000a;
     }
     public static final class menu {
         public static final int run_results=0x7f0c0000;
@@ -99,12 +107,28 @@ public final class R {
         public static final int triumph=0x7f060002;
     }
     public static final class string {
+        /**  Menu item text to display the instructions. 
+         */
+        public static final int act_audio=0x7f0a0012;
+        public static final int act_note=0x7f0a000f;
+        /**  Menu item text to display the instructions. 
+         */
+        public static final int act_picture=0x7f0a0010;
+        /**  Menu item text to display the instructions. 
+         */
+        public static final int act_stop=0x7f0a0013;
+        /**  Menu item text to display the instructions. 
+         */
+        public static final int act_video=0x7f0a0011;
         /**  The name of the application. 
          */
         public static final int app_name=0x7f0a0000;
         /**  Menu item text to start a new game. 
          */
         public static final int demo_task=0x7f0a0006;
+        /**  Menu item text to display the instructions. 
+         */
+        public static final int execute=0x7f0a000d;
         /**  Text displayed on the result summary card when the game ended because time ran out. 
          */
         public static final int game_over=0x7f0a0002;
@@ -133,6 +157,9 @@ public final class R {
         /**  Menu item text to start a new game. 
          */
         public static final int show_me=0x7f0a000a;
+        /**  Menu item text to display the instructions. 
+         */
+        public static final int tap_and_i_will_listen=0x7f0a000e;
         /**  Tip text displayed at the bottom of the splash screen. 
          */
         public static final int tap_for_options=0x7f0a0001;

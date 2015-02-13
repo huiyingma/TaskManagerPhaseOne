@@ -17,9 +17,29 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/run_task"
+        android:id="@+id/take_note"
         android:icon="@drawable/ic_game_50"
-        android:title="@string/run_task"
+        android:title="@string/act_note"
         />
-
+    <item
+        android:id="@+id/take_picture"
+        android:icon="@drawable/ic_game_50"
+        android:title="@string/act_picture"
+        />
+    <item
+        android:id="@+id/take_video"
+        android:icon="@drawable/ic_game_50"
+        android:title="@string/act_video"
+        />
+    <item
+        android:id="@+id/take_audio"
+        android:icon="@drawable/ic_game_50"
+        android:title="@string/act_video"
+        />
+    <item
+        android:id="@+id/go_back"
+        android:icon="@drawable/ic_game_50"
+        android:title="@string/act_stop"
+        />
+    
 </menu>

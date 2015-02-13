@@ -59,7 +59,9 @@
         <activity android:name="com.silsglass.coachingviews.TaskDemoActivity" />
         
         <activity android:name="com.silsglass.coachingviews.TutorialActivity" />
-
+        <activity android:name="com.silsglass.coachingviews.UserActionActivity" />
+        <activity android:name="com.silsglass.coachingviews.BasicVideoCaptureActivity" />
+        
 
     </application>
 
